@@ -1,4 +1,3 @@
-db.createCollection("project");
-use societyEvent;
+use project;
 db.createCollection("products");
 db.createUser({user: "mongouser", pwd: "secret", roles : [{role: "readWrite", db: "project"}]});
