@@ -18,6 +18,7 @@ target/
 *.iws
 *.iml
 *.ipr
+mongodb-data
 
 ### NetBeans ###
 /nbproject/private/
